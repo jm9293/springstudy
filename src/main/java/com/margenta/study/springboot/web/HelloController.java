@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
 
     @GetMapping("/hello")
-    public String hello(@RequestParam("name") String name , @RequestParam("amount") int amount){
+    public String hello(){
         return "hello";
     }
 
