@@ -1,2 +1,0 @@
-com/margenta/study/springboot/web/HelloControllerTest.java
- com.margenta.study.springboot.web.HelloControllerTest
