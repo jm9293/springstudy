@@ -41,6 +41,6 @@
 
 /api/v1/posts/{id} (delete) : 게시글 삭제
 
-
-
+## AWS 배포주소
+[바로가기](http://ec2-52-79-204-101.ap-northeast-2.compute.amazonaws.com:8080/)
 
