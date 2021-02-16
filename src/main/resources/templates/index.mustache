@@ -20,7 +20,7 @@
         <!-- 목록 출력 영역 -->
         <table class="table table-horizontal table-bordered col-12">
             <thead class="thead-strong ">
-            <tr class="row">
+            <tr class="col-12 row">
                 <th class="col-md-3 col-6">게시글번호</th>
                 <th class="col-md-3 col-6">제목</th>
                 <th class="col-md-3 col-6">작성자</th>
@@ -29,11 +29,11 @@
             </thead>
             <tbody id="tbody">
             {{#posts}}
-                <tr>
-                    <td>{{id}}</td>
-                    <td><a href="/posts/update/{{id}}">{{title}}</a></td>
-                    <td>{{author}}</td>
-                    <td>{{modifiedDate}}</td>
+                <tr class="col-12 row">
+                    <td class="col-md-3 col-6">{{id}}</td>
+                    <td class="col-md-3 col-6"><a href="/posts/update/{{id}}">{{title}}</a></td>
+                    <td class="col-md-3 col-6">{{author}}</td>
+                    <td class="col-md-3 col-6">{{modifiedDate}}</td>
                 </tr>
             {{/posts}}
             </tbody>
