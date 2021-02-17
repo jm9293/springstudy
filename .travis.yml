@@ -22,4 +22,4 @@ before_install:
 notifications:
   email:
     recipients:
-      - 'jm97010412@gmail.com'
+      - jm97010412@gmail.com
