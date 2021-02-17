@@ -19,7 +19,7 @@ before_install:
   - chmod +x gradlew
 
 before_deploy:
-  - zip -r springstudy
+  - zip -r springstudy *
   - mkdir -p deploy
   - mv springStudy.zip deploy/springstudy.zip
 
