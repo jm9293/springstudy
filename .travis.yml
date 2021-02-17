@@ -13,7 +13,7 @@ cache:
     - '$HOME/.gradle'
 
 
-script: "./gradlew clean build"
+script: "git reset --hard ; ./gradlew clean build"
 
 
 before_deploy:
