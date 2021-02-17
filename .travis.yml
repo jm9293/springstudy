@@ -19,9 +19,9 @@ before_install:
   - chmod +x gradlew
 
 before_deploy:
-  - zip -r springStudy
+  - zip -r springstudy
   - mkdir -p deploy
-  - mv springStudy.zip deploy/springStudy.zip
+  - mv springStudy.zip deploy/springstudy.zip
 
 deploy:
   - provider: s3
