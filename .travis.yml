@@ -21,7 +21,7 @@ before_install:
 before_deploy:
   - zip -r springstudy *
   - mkdir -p deploy
-  - mv springStudy.zip deploy/springstudy.zip
+  - mv springstudy.zip deploy/springstudy.zip
 
 deploy:
   - provider: s3
